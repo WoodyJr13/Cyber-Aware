@@ -1,0 +1,38 @@
+/* styles.css - Minimal styles to complement Tailwind CSS */
+
+#scenario-container .option-btn,
+#game-container .option-btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background-color: #f0f2f5;
+    color: #111518;
+    font-weight: 500;
+    text-align: left;
+    transition: background-color 0.2s;
+}
+
+#scenario-container .option-btn:hover,
+#game-container .option-btn:hover {
+    background-color: #e0e2e5;
+}
+
+#next-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #2094f3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#score {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
